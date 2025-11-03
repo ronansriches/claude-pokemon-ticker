@@ -1,11 +1,20 @@
-(paste the package.json content from my artifact)
-```
+{
+  "name": "pokemon-price-ticker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "lucide-react": "^0.263.1"
+  }
+}
 
-**File 2:** `pages/api/cards.js`
-```
-(paste the cards.js content from my artifact)
-```
-
-**File 3:** `pages/index.js`
-```
-(paste the index.js content from my artifact)
+// ==================== .env.local ====================
+// Create this file and add your API key:
+// POKEMON_API_KEY=pokeprice_pro_8290b1907d703fb76a16af6f0e13ce7d32ec760ece2271b6
