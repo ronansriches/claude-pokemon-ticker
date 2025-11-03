@@ -1,0 +1,11 @@
+(paste the package.json content from my artifact)
+```
+
+**File 2:** `pages/api/cards.js`
+```
+(paste the cards.js content from my artifact)
+```
+
+**File 3:** `pages/index.js`
+```
+(paste the index.js content from my artifact)
